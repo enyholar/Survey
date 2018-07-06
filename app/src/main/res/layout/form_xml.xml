@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="16dp"
+      android:orientation="vertical">
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_family_name"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/family_name">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_family_name"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_address"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/addres">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_address"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_no_of_family_members"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/no_of_family_members">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_no_of_family_members"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="number"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_names_of_family_members"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/names_of_family_members">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_names_of_family_members"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_age_of_family_members"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/names_of_family_members">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_age_of_family_members"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_num_cattle_owned_by_family"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_cattle_owned_by_family">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_num_cattle_owned_by_family"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="number"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_volunteer_name"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/volunteer_name">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_volunteer_name"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_num_cattle_currently_milked"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_cattle_currently_milked">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_num_cattle_currently_milked"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:inputType="number"
+          />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+        android:id="@+id/inputLayout_num_of_cattle_derived_from_heifer"
+        style="@style/Widget.Design.TextInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/num_ofcattle_derived_from_heifer">
+
+        <android.support.design.widget.TextInputEditText
+          android:id="@+id/edt_num_of_cattle_derived_from_heifer"
+          style="@style/Widget.AppCompat.EditText"
+          android:layout_width="match_parent"
+          android:inputType="number"
+          android:layout_height="wrap_content"
+          />
+      </android.support.design.widget.TextInputLayout>
+      <Button
+        android:id="@+id/add_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+  <string name="app_name">Survey</string>
+  <string name="family_name">Family member name</string>
+  <string name="no_of_family_members">No of family members</string>
+  <string name="names_of_family_members">Names of family members</string>
+  <string name="volunteer_name">Volunteer name</string>
+  <string name="num_cattle_owned_by_family">Number of cattle owned by family</string>
+  <string name="num_cattle_currently_milked">Number of cattle owned by family</string>
+  <string name="num_ofcattle_derived_from_heifer">Number of cattle derived from heifer</string>
+  <string name="addres">Address</string>
+  <string name="new_survey">New survey</string>
+  <string name="add_family">Add family info</string>
+
+  <string name="xcontinue">Continue</string>
+  <string name="start">Start</string>
+  <string name="close">Close</string>
+  <string name="finish">Finish</string>
+  <string name="q_family_name">What is your family name?</string>
+  <string name="q_visit_date">Which day do you visit?</string>
+  <string name="q_address">What is your home address?</string>
+  <string name="q_volunteer_name">What is the Volunteer name?</string>
+  <string name="q_custom1">Custom Question 1</string>
+  <string name="q_custom2">Custom Question 2</string>
+  <string name="q_custom3">Custom Question 3</string>
+  <string name="q_custom4">Custom Question 4</string>
+  <string name="q_custom5">Custom Question 5</string>
+  <string name="q_interviewed_name">Name of the person being interviewed</string>
+  <string name="q_survey_id">Survey Id?</string>
+  <string name="q_num_cattle_owned_by_family">Number of cattle owned by family?</string>
+  <string name="q_num_cattle_currently_milked">Number of cattle currently being milked?</string>
+  <string name="q_num_ofcattle_derived_from_heifer">Number of cattle derived from project Heifer?</string>
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="exit">Exit</string>
+  <string name="prev">Back</string>
+  <string name="next">Next</string>
+  <string name="save">Save</string>
+  <string name="q_family_mem_no">Number of family member?</string>
+  <string name="q_family_memeber">Names of family members and age?</string>
+  <string name="add">Add family</string>
+  <string name="view_summary">View survey summary</string>
+  <string name="title_activity_summary_survey_details">SummarySurveyDetailsActivity</string>
+  <string name="convert">Export to excel</string>
+  <string name="show_map">Map</string>
+  <string name="google_maps_key">AIzaSyD4Jx3TqPZimIT_1SKRRKnqPifvaRIDgY8</string>
+  <string name="welcome">Welcome to Survey</string>
+  <string name="instruction">Kindly click on the new survey button to take a new survey and fill all question.</string>
+  <string name="q_image">Images/Videos</string>
+</resources>

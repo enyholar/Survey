@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:orientation="horizontal">
+  <TextView
+    android:id="@+id/family_age"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="45sp"
+    android:padding="20dp"
+    android:textColor="@color/black"
+    android:hint="Age"
+    >
+  </TextView>
+  <ImageView
+    android:id="@+id/edit_fam"
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_toLeftOf="@+id/delete_fam"
+    android:src="@drawable/ic_edit_red_a100_24dp"
+    android:layout_height="wrap_content"/>
+  <ImageView
+    android:id="@+id/delete_fam"
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_alignParentEnd="true"
+    android:src="@drawable/ic_delete_deep_orange_300_24dp"
+    android:layout_height="wrap_content"/>
+
+</RelativeLayout>
